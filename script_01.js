@@ -33,11 +33,23 @@
 
 // Argumente sind Daten für Parameter
 
-ausgabeNamen2("Micha");       // call + Argument(e)
-ausgabeNamen2("Dennis");
-ausgabeNamen2("Andrea");
+// ausgabeNamen2("Micha");       // call + Argument(e)
+// ausgabeNamen2("Dennis");
+// ausgabeNamen2("Andrea");
 
 // Funktion mit Parameter(n)
 function ausgabeNamen2(firstName) {
     console.log("Hallo " + firstName + "!");    // diese Funktion wird nicht mehr verändert, bleibt gekapselt
+}
+
+/***** Funktionen 02c *****/
+
+// 2c. Mehrere Parameter / Argumente
+
+ausgabeNamenParams("Joerg", "Olsen");
+ausgabeNamenParams(prompt("Vorname?"), prompt("Name?"));
+
+function ausgabeNamenParams(firstName, familyName) {
+    console.log("Hallo " + firstName + " " + familyName + "!"); 
+
 }
