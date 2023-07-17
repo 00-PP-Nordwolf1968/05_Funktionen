@@ -19,12 +19,25 @@
 /***** Funktionen 02a  *****/
 // 2a Parametrisierung + Datenübergabe von INNEN
 
-ausgabeNamen();
+// ausgabeNamen();
 
-function ausgabeNamen() {
+// function ausgabeNamen() {
     
-    let firstName = "Corinna";
-console.log("Hallo " + firstName + "!");
-}
+//     let firstName = "Corinna";
+// console.log("Hallo " + firstName + "!");
+// }
 
 // console.log(firstName);     // Fehler --> SCOPE! ausserhalb der function ist die variable nicht zugängig
+
+// 2b Parametrisierung + Datenübergabe von AUSSEN
+
+// Argumente sind Daten für Parameter
+
+ausgabeNamen2("Micha");       // call + Argument(e)
+ausgabeNamen2("Dennis");
+ausgabeNamen2("Andrea");
+
+// Funktion mit Parameter(n)
+function ausgabeNamen2(firstName) {
+    console.log("Hallo " + firstName + "!");    // diese Funktion wird nicht mehr verändert, bleibt gekapselt
+}
