@@ -88,7 +88,8 @@ function ausgabeNamenParams(firstName, familyName) {
      const GAP = " ";
      let outputStr = "Hallo" + GAP + firstName + GAP + familyName + "!";
      return outputStr       // Daten werden an den Ort des calls geschickt
- }
+     console.log("Hi");     // return bricht die Funktion ab
+    }
 
 // 2. Funktionalität: string output
 // output("Hi");
