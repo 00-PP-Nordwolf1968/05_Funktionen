@@ -81,8 +81,8 @@ function ausgabeNamenParams(firstName, familyName) {
 
  // 1. Funktionalität: string composing
 
- output(getString("Joerg", "Olsen"));
- output(getString(prompt("Vorname?"), prompt("Nachname?")));
+//  output(getString("Joerg", "Olsen"));
+//  output(getString(prompt("Vorname?"), prompt("Nachname?")));
 
  function getString(firstName, familyName) {
      const GAP = " ";
